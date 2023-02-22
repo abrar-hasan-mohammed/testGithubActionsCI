@@ -1,13 +1,9 @@
-
-
 import webbrowser
 # import os
-
-
-print('Test Github actions with test case')
 class main():
     def __init__(self,url):
         self.url = url
+        print('Test Github actions with test case')
 
     def openWindow(self):
         webbrowser.open(self.url)
@@ -16,4 +12,3 @@ class main():
 
 p1 = main("http://www.microsoft.com")
 p1.openWindow()
-print('--Success--')
